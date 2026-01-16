@@ -1,6 +1,6 @@
 # 🧾 Employee Payroll Management System
 
-A **front-end web application** built using **HTML, CSS, and JavaScript** that allows users to **add, view, edit, delete, and search employee payroll details**.  
+A front-end web application built using **HTML, CSS, and JavaScript that allows users to add, view, edit, delete, and search employee payroll details.  
 
 The project demonstrates form handling, validation, dynamic DOM manipulation, and browser-based data persistence using `localStorage`.
 
