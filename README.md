@@ -74,8 +74,8 @@ The project demonstrates form handling, validation, dynamic DOM manipulation, an
 - **localStorage** – client-side data storage
 
 ---
-```
 ## 📂 Project Structure
+```
 Employee-Payroll-App/
 │
 ├── index.html # Employee Payroll Form
