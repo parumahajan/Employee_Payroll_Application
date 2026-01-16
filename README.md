@@ -1,6 +1,7 @@
 # 🧾 Employee Payroll Management System
 
 A **front-end web application** built using **HTML, CSS, and JavaScript** that allows users to **add, view, edit, delete, and search employee payroll details**.  
+
 The project demonstrates form handling, validation, dynamic DOM manipulation, and browser-based data persistence using `localStorage`.
 
 ---
@@ -16,10 +17,12 @@ The project demonstrates form handling, validation, dynamic DOM manipulation, an
   - Salary slider with live update
   - Start date selection (Day / Month / Year)
   - Notes section
+    
 - Form validations for:
   - Name format
   - Future date restriction
   - Mandatory fields
+    
 - Buttons:
   - **Submit** – saves data
   - **Reset** – resets all fields including salary
@@ -36,6 +39,7 @@ The project demonstrates form handling, validation, dynamic DOM manipulation, an
   - Departments (highlighted as pills)
   - Salary
   - Start Date (formatted as `Dec 30 2025`)
+    
 - Actions:
   - 🗑 **Delete employee**
   - ✏️ **Edit employee** (pre-fills form)
