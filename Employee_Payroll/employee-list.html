@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Details</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/payroll.css" />
+  </head>
+  <body>
+    <!-- HEADER (Same as form page) -->
+    <header class="header">
+      <div class="header-content header-left">
+        <div class="logo-content">
+          <!-- NEW LEFT LOGO -->
+          <img
+            src="assets/images/employee-logo.png"
+            alt="Employee Payroll Logo"
+            class="main-logo"
+          />
+
+          <div>
+            <span class="emp-text">EMPLOYEE</span><br />
+            <span class="emp-text emp-payroll">PAYROLL</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="list-container">
+      <!-- EMPLOYEE DETAILS HEADER ROW -->
+      <div class="employee-details-header">
+        <h2 class="employee-title">Employee Details</h2>
+
+        <div class="header-actions">
+          <div class="search-container">
+            <span class="search-icon" onclick="toggleSearch()">🔍</span>
+
+            <input
+              type="text"
+              id="searchInput"
+              class="search-input"
+              placeholder="Search employees..."
+            />
+
+            <span class="close-icon" onclick="toggleSearch()">✖</span>
+          </div>
+
+          <a href="index.html" class="add-btn">+ Add User</a>
+        </div>
+      </div>
+
+      <!-- TABLE WILL COME HERE NEXT -->
+      <table class="employee-table">
+        <thead>
+          <tr>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>DEPARTMENT</th>
+            <th>SALARY</th>
+            <th>START DATE</th>
+            <th>ACTIONS</th>
+          </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+          <!-- Data will be inserted dynamically -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- JS -->
+    <script src="js/payroll.js"></script>
+  </body>
+</html>
