@@ -99,10 +99,10 @@ Employee-Payroll-App/
 
 ## OUTPUT 
 
-# EMPLOYEE PAYROLL (ADD USER)
+## EMPLOYEE PAYROLL (ADD USER)
 <img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/63d67fb1-8553-4812-8a89-13caf50d0f90" />
 
-# EMPLOYEE DETAILS
+## EMPLOYEE DETAILS
 <img width="1919" height="706" alt="image" src="https://github.com/user-attachments/assets/161d5903-337b-4b82-9d6b-0cb48cdf71b1" />
 
 
