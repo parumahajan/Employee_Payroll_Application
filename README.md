@@ -78,17 +78,17 @@ The project demonstrates form handling, validation, dynamic DOM manipulation, an
 ```
 Employee-Payroll-App/
 │
-├── index.html # Employee Payroll Form
-├── employee-list.html # Employee Details page
+├── index.html                                # Employee Payroll Form
+├── employee-list.html                        # Employee Details page
 │
 ├── css/
-│ └── payroll.css # Styling
+│ └── payroll.css                             # Styling
 │
 ├── js/
-│ └── payroll.js # Application logi
+│ └── payroll.js                              # Application logic
 │
 ├── assets/
-│ └── images/ # Logos & profile images
+│ └── images/                                 # Logos & profile images
 │
-└── README.md # Project documentation
+└── README.md                                 # Project documentation
 ```
