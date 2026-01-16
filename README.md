@@ -76,4 +76,18 @@ The project demonstrates form handling, validation, dynamic DOM manipulation, an
 ---
 
 ## 📂 Project Structure
-
+Employee-Payroll-App/
+│
+├── index.html # Employee Payroll Form
+├── employee-list.html # Employee Details page
+│
+├── css/
+│ └── payroll.css # Styling
+│
+├── js/
+│ └── payroll.js # Application logi
+│
+├── assets/
+│ └── images/ # Logos & profile images
+│
+└── README.md # Project documentation
